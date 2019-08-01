@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      uri: 
+        - http://localhost:9000
+        
+zuul:
+  prefix: /api
+  routes:
+    user-service:
+      path: /user-service/**
+      service-id: user-service
+    task-service:
+      path: /task-service/**
+      service-id: task-service
+      
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka 
+    
+    
+    
