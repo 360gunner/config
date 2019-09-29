@@ -11,7 +11,13 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ddl-auto: update
-
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
 server:
   port: 8082
 #Eureka

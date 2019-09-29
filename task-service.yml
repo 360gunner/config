@@ -11,6 +11,13 @@ spring:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     hibernate:
       ddl-auto: update
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
 #Eureka
 eureka:
   client:
