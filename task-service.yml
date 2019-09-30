@@ -28,4 +28,4 @@ server:
   port: 8083
 
 application:
-  version: 4
+  version: 5
