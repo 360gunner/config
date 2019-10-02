@@ -28,4 +28,4 @@ server:
   port: 8083
 
 application:
-  version: task-service-v3
+  version: task-service-v4
