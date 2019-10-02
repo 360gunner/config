@@ -30,4 +30,4 @@ eureka:
 #  ribbon:
 #    listOfServers: http://localhost:8083/,http://localhost:8085/
 application:
-  version: user-service-v2
+  version: user-service-v3
