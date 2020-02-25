@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/tasks
     username: root
-    password: C0dingS@int
+    password: 1998
     
   jpa:
     generate-ddl: true
