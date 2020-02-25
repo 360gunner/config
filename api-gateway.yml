@@ -15,7 +15,15 @@ zuul:
     task-service:
       path: /task-service/**
       service-id: task-service
-      
+    test1-service:
+      path: /task/**
+      service-id: test1-service
+    test2-service:
+      path: /user/**
+      service-id: test2-service
+
+
+
 #Eureka
 eureka:
   client:
