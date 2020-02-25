@@ -2,11 +2,7 @@ spring:
   application:
     name: user-service
     
-  jpa:
-    generate-ddl: true
-    database-platform: org.hibernate.dialect.MySQL5Dialect
-    hibernate:
-      ddl-auto: update
+
 management:
   security:
     enabled: false
