@@ -21,8 +21,9 @@ zuul:
     test2-service:
       path: /user/**
       service-id: test2-service
-
-
+    amira-service:
+      path: /mira/**
+      service-id: amira-service
 
 #Eureka
 eureka:
