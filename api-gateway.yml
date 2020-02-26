@@ -11,6 +11,9 @@ zuul:
     user-service:
       path: /user-service/**
       service-id: user-service
+    houssem-service:
+      path: /houhou/**
+      service-id: houssem-service
     task-service:
       path: /task-service/**
       service-id: task-service
