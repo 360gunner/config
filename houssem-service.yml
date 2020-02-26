@@ -21,5 +21,4 @@ eureka:
 amira-service:
   ribbon:
     eureka:
-      enabled:
-        true
+      enabled: true
