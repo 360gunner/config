@@ -2,15 +2,14 @@ spring:
   application:
     name: test2-service
     
-
-#management:
- # security:
-  #  enabled: false
-  #endpoints:
-   # web:
-    #  exposure:
-     #   include: 
-      #    - "*"
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: 
+          - "*"
 server:
   port: 8091
 #Eureka
@@ -19,5 +18,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/  
 
-application:
-  version: test2-service-v1
+
