@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: houssem-service
+    
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: 
+          - "*"
+server:
+  port: 1808
+#Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
