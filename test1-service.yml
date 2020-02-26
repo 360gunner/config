@@ -3,14 +3,14 @@ spring:
     name: test1-service
     
 
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: 
-          - "*"
+#management:
+#  security:
+ #   enabled: false
+  #endpoints:
+   # web:
+    #  exposure:
+     #   include: 
+      #    - "*"
 server:
   port: 8087
 #Eureka
