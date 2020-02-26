@@ -7,7 +7,6 @@ spring:
         - http://localhost:9000
         
 zuul:
-  prefix: /api
   routes:
     user-service:
       path: /user-service/**
@@ -24,7 +23,7 @@ zuul:
     amira-service:
       path: /mira/**
       service-id: amira-service
-
+  #prefix: /api
 #Eureka
 eureka:
   client:
