@@ -11,8 +11,8 @@ management:
       exposure:
         include: 
           - "*"
-server:
-  port: 8081
+#server:
+#  port: 8081
 #Eureka
 eureka:
   client:
