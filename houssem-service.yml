@@ -2,7 +2,10 @@ spring:
   application:
     name: houssem-service
     
-
+spring:
+  sleuth:
+    sampler:
+      percentage: 0.5
 management:
   security:
     enabled: false
