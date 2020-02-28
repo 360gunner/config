@@ -11,8 +11,8 @@ management:
       exposure:
         include: 
           - "*"
-server:
-  port: 1808
+#server:
+#  port: 1808
 #Eureka
 eureka:
   client:
