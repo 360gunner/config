@@ -1,21 +1,2 @@
-spring:
-  application:
-    name: amira-service
-  sleuth:
-    sampler:
-      percentage: 0.5
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: 
-          - "*"
-#server:
-#  port: 8081
-#Eureka
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+
+{cipher}a745a9a1a3dad631ef044bf956ab36057d3a92198412b6c5b2628be5064d03c0f2564ff5ce721a6ac2ba730460ddcd3e4094259631348552f0f080a868abc27fdda54854031d10d38fec735470ae31ff356b2f881e8792d9521f07d3140aae45e84025b53e5efc2fee0813d0cec8c1360eb32bce71182949205b4125fe2f8e29addbef69ecf251747cb2f7943912d78f8c41f0c7ac7fb3cb1d311e95b1f38a920f6dadfae1b4afb0832d8914eabb3233c6b2b48ca67731bda399f4e56cff1177629277984e4f58cd6a9d7c5530e71bb6ae11ab911887d8a3b6d2f18a14f556ded4a7c161a27b90b4db0598b72e1cfef8642ae2d8be26c82b7910f474757f27b203b78b05999e1de6fa06271b7b722bf71811cf9059288510ddea57f7e09fa56677bd6c4736fe091cc669d61c0ff18b093b97331bd806253086c592e453089779ac7cb3408d02b61a0d812422500202b4002a89d25c322a6863e6adad5412f8de
