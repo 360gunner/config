@@ -4,6 +4,11 @@ spring:
     port: 5672
     username: 360gunner
     password: 1998
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: elit
   application:
     name: houssem-service
   sleuth:
