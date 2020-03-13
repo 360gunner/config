@@ -1,20 +1,8 @@
 zuul:
   routes:
-    user-service:
-      path: /user-service/**
-      service-id: user-service
     houssem-service:
       path: /houhou/**
       service-id: houssem-service
-    task-service:
-      path: /task-service/**
-      service-id: task-service
-    test1-service:
-      path: /task/**
-      service-id: test1-service
-    test2-service:
-      path: /user/**
-      service-id: test2-service
     amira-service:
       path: /mira/**
       service-id: amira-service
