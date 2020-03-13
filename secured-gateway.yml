@@ -1,3 +1,10 @@
+security:
+  oauth2:
+    client:
+      clientId: houssem
+      clientSecret: amira
+      authorized-grant-types: authorization_code,refresh_token,password,client_credentials
+      scope: amira,houssem
 zuul:
   routes:
     houssem-service:
