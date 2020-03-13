@@ -1,6 +1,6 @@
 spring:
-    application:
-        name: secured-gateway
+  application:
+    name: secured-gateway
   cloud:
     config:
       uri: 
