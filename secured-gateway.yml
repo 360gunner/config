@@ -1,4 +1,5 @@
 zuul:
+  prefix: /secured
   routes:
     user-service:
       path: /user-service/**
