@@ -1,4 +1,7 @@
 spring:
+  sleuth:
+    sampler:
+      percentage: 0.5
   application:
     name: secured-gateway
   cloud:
