@@ -1,6 +1,6 @@
 zuul:
+  prefix: /secured
   routes:
-    prefix: /secured
     user-service:
       path: /user-service/**
       service-id: user-service
