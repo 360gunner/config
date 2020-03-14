@@ -5,9 +5,6 @@ security:
       clientSecret: amira
       authorized-grant-types: authorization_code,refresh_token,password,client_credentials
       scope: amira,houssem
-    resource:
-      userInfoUri: http://localhost:8080/user
-      user-info-uri: http://localhost:8080/user
 zuul:
   routes:
     houssem-service:
