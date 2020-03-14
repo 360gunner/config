@@ -11,8 +11,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: 360gunner
-    password: 1998
+    username: guest
+    password: guest
   application:
     name: amira-service
   sleuth:
