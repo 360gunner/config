@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: gateway
   aop:
     proxy-target-class: true
 
@@ -29,10 +31,18 @@ zuul:
     user:
       path: /user/**
       url: http://localhost:9999/uaa/user
-    Eureka:
-      path: 'admin/eureka/**'
-      url: http://localhost:8761
+    amira-service:
+      path: /mira/**
+      service-id: amira-service
+    houssem-service:
+      path: /houhou/**
+      service-id: houssem-service
 
 logging:
   level:
     org.springframework.security: DEBUG
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
