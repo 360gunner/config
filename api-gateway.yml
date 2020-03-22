@@ -15,9 +15,9 @@ spring:
       percentage: 0.5        
 zuul:
   routes:
-    user-service:
-      path: /user-service/**
-      service-id: user-service
+    user:
+      path: /user/**
+      url: http://localhost:9999/uaa/user
     houssem-service:
       path: /houhou/**
       service-id: houssem-service
